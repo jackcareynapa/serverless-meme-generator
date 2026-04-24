@@ -1,0 +1,33 @@
+# dependencies
+node_modules
+.pnp
+.pnp.js
+
+# next
+.next
+out
+
+# env
+.env
+.env.local
+.env.*.local
+
+# os / ide
+.DS_Store
+.idea
+.vscode
+
+# lambda build artifacts
+lambda/*.zip
+lambda/layer-staging/
+lambda/node_modules
+*.zip
+
+# vercel
+.vercel
+
+# logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
